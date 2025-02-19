@@ -13,8 +13,7 @@ export default function Dashboard() {
     if (tabFromUrl) { // If 'tab' parameter exists in URL
       setTab(tabFromUrl); // Set the 'tab' state to the value from URL
     }
-  }, [location.search]); // Running the effect whenever the 'location.search' changes
-
+  }, [location.search]); 
   return (
     <div className='min-h-screen flex flex-col md:flex-row'> {/* Outer container with flex layout */}
       <div className='md:w-56'> {/* Sidebar container */}
