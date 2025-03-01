@@ -1,5 +1,5 @@
 // Import necessary dependencies from React and ReactDOM
-import React from 'react';
+
 import ReactDOM from 'react-dom/client';
 
 // Import the main component of the application
